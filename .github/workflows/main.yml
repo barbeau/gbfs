@@ -26,8 +26,8 @@ jobs:
     - name: Run a multi-line script
       run: |
         wget "https://github.com/Clever/csvlint/releases/download/0.2.0/csvlint-v0.2.0-linux-amd64.tar.gz"
-        echo tar -xzf csvlint-v0.2.0-linux-amd64.tar.gz
-        echo ls
-        echo cd csvlint-v0.2.0-linux-amd64
-        echo csvlint ../systems.csv
+        tar -xzf csvlint-v0.2.0-linux-amd64.tar.gz
+        ls
+        cd csvlint-v0.2.0-linux-amd64
+        csvlint ../systems.csv
         
