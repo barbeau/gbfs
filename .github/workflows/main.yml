@@ -25,9 +25,6 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Run a multi-line script
       run: |
-        wget "https://github.com/Clever/csvlint/releases/download/0.2.0/csvlint-v0.2.0-linux-amd64.tar.gz"
-        tar -xzf csvlint-v0.2.0-linux-amd64.tar.gz
-        ls
-        cd csvlint-v0.2.0-linux-amd64
-        csvlint ../systems.csv
+        npm install --global csval
+        csval ../systems.csv
         
