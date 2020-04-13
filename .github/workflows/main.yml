@@ -29,5 +29,5 @@ jobs:
         echo tar -xzf csvlint-v0.2.0-linux-amd64.tar.gz
         echo ls
         echo cd csvlint-v0.2.0-linux-amd64
-        csvlint ../systems.csv
+        echo csvlint ../systems.csv
         
