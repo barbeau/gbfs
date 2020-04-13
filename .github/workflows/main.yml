@@ -27,6 +27,7 @@ jobs:
       run: |
         wget 'https://github.com/Clever/csvlint/releases/download/0.2.0/csvlint-v0.2.0-linux-amd64.tar.gz'
         tar -xzf csvlint-v0.2.0-linux-amd64.tar.gz
-        cd csvlint-v0.2.0-linux-amd64
+        echo ls
+        echo cd csvlint-v0.2.0-linux-amd64
         csvlint ../systems.csv
         
